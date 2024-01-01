@@ -11,15 +11,16 @@ var pageNames = [
 for (let i = 0; i < pageNames.length; i += 1) {
   console.log(i, pageNames[i]);
 }
-
+// here order is not guaranteed
 for (var p in pageNames) {
   console.log(p, pageNames[p]);
 }
-
+// here order is not guaranteed
 for (var v of pageNames) {
   console.log(v);
 }
 
+// here order is not guaranteed
 // iterate over an object
 var pages = {
   first: "Home",
