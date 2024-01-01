@@ -1,3 +1,4 @@
+// manipulation of objects
 var bird = {
 	genus : 'corvus',
 	species : 'corvax',
