@@ -1,6 +1,6 @@
 // This is a transcript of the lines of code from the lesson.
 // You can copy and paste each line into a JavaScript console to execute it and see the result.
-
+// booleans are 3 syllabals. Often called as flags.Flag means boolean
 true;
 false;
 
