@@ -1,3 +1,4 @@
+// Truthy or falsy statements 
 var cherub = "Cupid";
 // cherub = 'Norman';
 
