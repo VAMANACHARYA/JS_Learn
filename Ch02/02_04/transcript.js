@@ -7,7 +7,8 @@
 -12
 Infinity
 -Infinity
-NaN
+
+NaN // Not a number
 
 var myNumber = 33;
 
