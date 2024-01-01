@@ -30,8 +30,8 @@ animal2 = {
 
 // bonus: make a copy of an object safely
 animal2 = Object.assign({}, animal);
-animal2 = { ...animal };
-animal2 = JSON.parse(JSON.stringify(animal));
+animal2 = { ...animal }; // spread operator, ES 15
+animal2 = JSON.parse(JSON.stringify(animal)); // JSON - JavaScript Object Notation
 
 animal2.genus = "ursus";
 animal2;
